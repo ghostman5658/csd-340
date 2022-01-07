@@ -1,2 +1,4 @@
-# csd-340
-Web Development With HTML and CSS
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+- Kyle Gotzman
+- Professor Tracy Shelanskey
