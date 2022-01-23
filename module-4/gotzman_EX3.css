@@ -49,3 +49,7 @@ h3 {
 #favorite-url:hover, #back-to-top:hover {
     text-decoration: underline;
 }
+
+#back-to-top {
+    text-align: justify;
+}
