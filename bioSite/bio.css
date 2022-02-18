@@ -51,12 +51,13 @@ img {
     width: 400px;
     height: 350px;
     align-items: center;
+    align-content: center; 
 }
 
 .image {
     border: 1px solid rgba(7, 232, 245, 96);
     border-radius: 15px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .image-title {
