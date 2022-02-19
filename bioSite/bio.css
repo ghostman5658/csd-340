@@ -34,9 +34,9 @@ header {
 }
 
 section {
-    margin-top: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 10px;
     color: #07e8f5;
     background-color: #f56607;
@@ -50,8 +50,6 @@ section {
 img {
     width: 400px;
     height: 350px;
-    align-items: center;
-    align-content: center; 
 }
 
 .image {
