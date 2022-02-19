@@ -1,6 +1,6 @@
 
 html {
-    background-color: #07e8f5; 
+    background-color: #6aebf7; 
 }
 
 body {
@@ -8,43 +8,48 @@ body {
 }
 
 header {
-    background-color: #f56607;
-    color: #07e8f5;
+    background-color: white;
+    color: #0f6d75;
+    font-weight: bold;
     padding: 20px;
     text-align: center;
 }
 
 #navbar {
     overflow: hidden;
-    background-color: #ff7a21;
+    background-color: #0f6d75;
 }
 
 #navbar a {
     float: left;
     display: block;
-    color: #009FA8;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none; 
 }
 
 #navbar a:hover {
-    background-color: #f56607;
-    color: #07e8f5;
+    background-color: #19b4c2;
+    color: white;
 }
 
 section {
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 10px;
-    color: #07e8f5;
-    background-color: #f56607;
+    color: white;
+    background-color: #0f6d75;
     font-weight: 400;
     box-shadow: 0 4px 8px 0 rgba(255, 122, 33, .5);
     border-radius: 15px;
     display: grid;
     grid-template-columns: auto auto auto;
+}
+
+figure {
+    text-align: center;
 }
 
 img {
@@ -71,14 +76,13 @@ p {
 }
 
 footer {
-    background-color: #f56607;
     position:static;
     bottom: 0;
     width: 100%;
 }
 
 footer p {
-    color: #009FA8;
+    color: #0f6d75;
     font-weight: 400;
     float: right;
     padding-right: 10px;
@@ -88,7 +92,7 @@ footer p {
 
 footer a {
     text-decoration: none;
-    color: #009FA8;
+    color: #0f6d75;
 }
 footer a:hover {
     text-decoration: underline;
