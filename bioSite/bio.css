@@ -5,6 +5,8 @@ html {
 
 body {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
+    width: 940px;
+    margin: auto;
 }
 
 header {
@@ -21,8 +23,7 @@ header {
 }
 
 #navbar a {
-    float: left;
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -42,7 +43,7 @@ section {
     color: white;
     background-color: #0f6d75;
     font-weight: 400;
-    box-shadow: 0 4px 8px 0 rgba(255, 122, 33, .5);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.75);
     border-radius: 15px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -58,6 +59,7 @@ img {
 
 .image {
     border: 1px solid rgba(7, 232, 245, 96);
+    margin: auto;
     border-radius: 15px;
     padding: 5px;
 }
