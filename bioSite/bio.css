@@ -60,6 +60,14 @@ figure {
     text-align: center;
 }
 
+figcaption {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400; 
+    font-style: italic;
+    font-size: .75em;
+    color: white;
+}
+
 img {
     height: 350px;
 }
