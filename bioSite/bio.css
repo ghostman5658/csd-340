@@ -5,9 +5,14 @@ html {
 
 body {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
+    overflow: auto;
+}
+
+#landing {
     width: 940px;
     margin: auto;
-    overflow: hidden;
+    overflow: auto;
+
 }
 
 header {
