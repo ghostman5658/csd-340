@@ -1,0 +1,140 @@
+
+html {
+    background-color: #6aebf7; 
+}
+
+body {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    overflow: auto;
+    margin: auto;
+}
+
+header {
+    background-color: white;
+    color: #0f6d75;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #0f6d75;
+    text-align: center;
+}
+
+#navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+
+#navbar a:hover {
+    background-color: #19b4c2;
+    color: white;
+}
+
+.form {
+    display: inline-grid;
+    grid-template-columns: auto;
+}
+
+.form-field {
+    padding: 20px;
+}
+
+.btn {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+    color: white;
+}
+
+.input {
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #19b4c2;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    background-color: #0f6d75;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0f6d75;
+    color: white;
+}
+
+.full-width {
+    width: 100%;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400; 
+    font-style: italic;
+    font-size: .75em;
+    color: white;
+}
+
+img {
+    height: 350px;
+}
+
+.image {
+    border: 1px solid rgba(7, 232, 245, 96);
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.image-title {
+    text-align: center;
+}
+
+.text-title {
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+}
+
+footer {
+    position:static;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #0f6d75;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: .75em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #0f6d75;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
