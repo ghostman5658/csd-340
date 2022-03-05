@@ -17,13 +17,13 @@ header {
     text-align: center;
 }
 
-#navbar {
+.navbar {
     overflow: hidden;
     background-color: #0f6d75;
     text-align: center;
 }
 
-#navbar a {
+.navbar a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -31,9 +31,22 @@ header {
     text-decoration: none; 
 }
 
-#navbar a:hover {
+.navbar a:hover {
     background-color: #19b4c2;
     color: white;
+}
+
+.bio-container {
+    display: inline-block;
+}
+
+.image1 {
+    float: left;
+}
+
+h3 {
+    text-align: center;
+    color: #0f6d75;
 }
 
 .form {
@@ -80,6 +93,33 @@ header {
     width: 100%;
 }
 
+h1 {
+    text-align: center;
+    color: #0f6d75;
+}
+
+.columns {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    color: white;
+    background-color: #0f6d75;
+    font-weight: 400;
+    box-shadow: 10px 5px 5px white;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card {
+    display: block;
+}
+
+.card-title {
+    text-align: center;
+}
+
 figure {
     text-align: center;
 }
@@ -93,7 +133,7 @@ figcaption {
 }
 
 img {
-    height: 350px;
+    height: 300px;
 }
 
 .image {
@@ -101,14 +141,6 @@ img {
     margin: 5px;
     border-radius: 15px;
     padding: 5px;
-}
-
-.image-title {
-    text-align: center;
-}
-
-.text-title {
-    text-align: center;
 }
 
 p {
